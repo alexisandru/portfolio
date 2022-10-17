@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
+
+import Navbar from './components/Navbar'
+import About from './components/About'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import ThemeChanger from './components/ThemeChanger'
+
+import { ThemeProvider } from 'styled-components'
+import {lightTheme, darkTheme} from './components/Theme'
 
 function App() {
+
+  const [theme, setTheme] = useState('light')
+  const [accentColor, setAccentColor] = useState('#cfcfcf')
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <ThemeProvider theme={theme === 'light' ? {...lightTheme, accentColor} : {...darkTheme, accentColor}}>
+    <div>
+      <ThemeChanger changeTheme={setTheme} changeAccentColor={setAccentColor}/>
+      <Navbar />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
+    </ThemeProvider>
   );
 }
 
