@@ -93,10 +93,10 @@ const Nav = styled.nav`
     position: fixed;
     height: 100%;
 
-    z-index: 22;
+    z-index: 3;
     top: 0;
-    right: 0;
-    overflow-x: hidden;  
+    right: -10;
+    overflow: hidden;  
     width: 0;
     background-color: #fff;
     
