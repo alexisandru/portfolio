@@ -13,7 +13,7 @@ import {lightTheme, darkTheme} from './components/Theme'
 function App() {
 
   const [theme, setTheme] = useState('light')
-  const [accentColor, setAccentColor] = useState('#cfcfcf')
+  const [accentColor, setAccentColor] = useState('#b39ddb')
 
 
 

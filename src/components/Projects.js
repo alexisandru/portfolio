@@ -3,15 +3,22 @@ import Project from './Project'
 
 import styled from 'styled-components'
 
+import data from '../assets/data.json'
+
 const Projects = () => {
+
+  const projects = data.projects.map(project => {
+    return (
+      <Project data={project} />
+    )
+  })
+
   return (
     <Container id="projects">
       <div style={{height: "70px"}}></div>
       <Title>Projects</Title>
-      <Project />
-      <Project position={2}/>
-      <Project />
-      <Project position={2}/>
+
+      {projects}
     </Container>
   )
 }

@@ -5,21 +5,18 @@ import notes from '../assets/notes-screen.png'
 import rocket from '../assets/rocket.svg'
 import git from '../assets/github.svg'
 
-const Project = ({position}) => {
+const Project = ({data}) => {
   return (
-    <Container position={position}>
+    <Container position={data.id}>
       <Section>
-        <Title>Notes App</Title>
-        <Description>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis magni fugiat eum id dicta rerum veritatis doloremque reiciendis accusamus aperiam?</Description>
+        <Title>{data.name}</Title>
+        <Description>{data.description}</Description>
         <Stack>
-          <Tech>React</Tech>
-          <Tech>Firebase</Tech>
-          <Tech>Redux</Tech>
-          <Tech>Styled Components</Tech>
+          {data.tech.map(tech => <Tech>{tech}</Tech>)}
         </Stack>
         <Links>
-          <Link href="!#"><Icon alt="demo" src={rocket}/>Live demo</Link>
-          <Github href="!#"><Icon alt="github" src={git}/>Github</Github>
+          <Link target="_blank" href={data.live}><Icon alt="demo" src={rocket}/>Live demo</Link>
+          <Github target="_blank" href={data.repo}><Icon alt="github" src={git}/>Github</Github>
         </Links>
       </Section>
       <ImageSection>

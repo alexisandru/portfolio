@@ -1,0 +1,82 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "Javascript",
+      "image": "javascript"
+    },
+    {
+      "id": 2,
+      "name": "HTML",
+      "image": "html"
+    },
+    {
+      "id": 3,
+      "name": "CSS",
+      "image": "css"
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "image": "react"
+    },
+    {
+      "id": 5,
+      "name": "Firebase",
+      "image": "firebase"
+    },
+    {
+      "id": 6,
+      "name": "Redux",
+      "image": "redux"
+    },
+    {
+      "id": 7,
+      "name": "Styled Components",
+      "image": "styled"
+    },
+    {
+      "id": 8,
+      "name": "Git",
+      "image": "git"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Quiz App",
+      "description": "Es un juego de preguntas y respuestas, se puede seleccionar la cantidad de preguntas, su categoría y la dificultad de las preguntas.",
+      "tech": ["React", "Redux", "Styled Components", "API Open Trivia DB"],
+      "live": "https://alexisandru.github.io/quizapp/",
+      "repo": "https://github.com/alexisandru/quizapp",
+      "image": "quizapp"
+    },
+    {
+      "id": 2,
+      "name": "Notes",
+      "description": "Una página para poder agregar notas y tareas simples. Se pueden crear y organizar por categorías. También se puede editar y eliminar notas.",
+      "tech": ["React", "Redux", "Firebase", "Styled Components"],
+      "live": "https://alexisandru.github.io/notes",
+      "repo": "https://github.com/alexisandru/notes",
+      "image": "note"
+    },
+    {
+      "id": 1,
+      "name": "Bakery",
+      "description": "",
+      "tech": ["React", "Redux", "CSS Modules"],
+      "live": "https://alexisandru.github.io/cup",
+      "repo": "https://github.com/alexisandru/cup",
+      "image": "cupcakes"
+    },
+    {
+      "id": 2,
+      "name": "ToDo App",
+      "description": "Se puede agregar tareas o listas",
+      "tech": ["React", "Styled Components"],
+      "live": "https://alexisandru.github.io/ToDoApp/",
+      "repo": "https://github.com/alexisandru/ToDoApp",
+      "image": "Todo"
+    }
+  ]
+}
