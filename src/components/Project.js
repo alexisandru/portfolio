@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import notes from '../assets/notes-screen.png'
 import rocket from '../assets/rocket.svg'
 import git from '../assets/github.svg'
+
+import ImageSlider from './ImageSlider'
 
 const Project = ({data}) => {
   return (
@@ -20,7 +21,7 @@ const Project = ({data}) => {
         </Links>
       </Section>
       <ImageSection>
-        <Image src={notes} alt="notes"/>
+        <ImageSlider imagesData={data.images}/>
       </ImageSection>
     </Container>
   )
@@ -38,10 +39,7 @@ const Container = styled.section`
 
   grid-template-areas: ${props => props.position === 2 ? "'image desc'" : "'desc image'"};
 
-  //display: flex;
-  //align-items: center;
-  //justify-content: space-around;
-  //flex-direction: ${props => props.position === 2 ? 'row-reverse' : 'row'};
+  
   padding: 0 50px;
 
   background-color: ${props => props.theme.background};
@@ -60,8 +58,8 @@ const Section = styled.div`
   align-items: center;
   flex-direction: column;
   grid-area: desc;
-
   cursor: default;
+
   @media screen and (max-width: 650px) {
     margin: 0 20px;
   }
@@ -73,12 +71,13 @@ const ImageSection = styled(Section)`
   overflow: hidden;
   border-radius: 10px; 
   box-shadow:
-      0 1px 1px hsl(0deg 0% 0% / 0.075),
-      0 2px 2px hsl(0deg 0% 0% / 0.075),
-      0 4px 4px hsl(0deg 0% 0% / 0.075),
-      0 8px 8px hsl(0deg 0% 0% / 0.075),
-      0 16px 16px hsl(0deg 0% 0% / 0.2)
-    ;
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.2)
+  ;
+
   @media screen and (max-width: 650px) {
     margin: 0 10px;
   }
@@ -110,12 +109,6 @@ const Description = styled.p`
   padding: 10px 0;
 `
 
-
-const Image = styled.img`
-  width: 100%;
-
- 
-`
 
 const Stack = styled.ul`
   display: flex;

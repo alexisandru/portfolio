@@ -49,7 +49,7 @@
       "tech": ["React", "Redux", "Styled Components", "API Open Trivia DB"],
       "live": "https://alexisandru.github.io/quizapp/",
       "repo": "https://github.com/alexisandru/quizapp",
-      "image": "quizapp"
+      "images": ["quiz1", "quiz2", "quiz3", "quiz4", "quiz5"]
     },
     {
       "id": 2,
@@ -58,7 +58,7 @@
       "tech": ["React", "Redux", "Firebase", "Styled Components"],
       "live": "https://alexisandru.github.io/notes",
       "repo": "https://github.com/alexisandru/notes",
-      "image": "note"
+      "images": ["notes1", "notes2", "notes3", "notes4", "notes5"]
     },
     {
       "id": 1,
@@ -67,7 +67,7 @@
       "tech": ["React", "Redux", "CSS Modules"],
       "live": "https://alexisandru.github.io/cup",
       "repo": "https://github.com/alexisandru/cup",
-      "image": "cupcakes"
+      "images": ["bakery1", "bakery2", "bakery3"]
     },
     {
       "id": 2,
@@ -76,7 +76,7 @@
       "tech": ["React", "Styled Components"],
       "live": "https://alexisandru.github.io/ToDoApp/",
       "repo": "https://github.com/alexisandru/ToDoApp",
-      "image": "Todo"
+      "images": ["todo1", "todo2", "todo3"]
     }
   ]
 }
