@@ -1,24 +1,42 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.7e5dcb08.js",
+    "main.js": "/portfolio/static/js/main.b1996d08.js",
+    "static/media/bakery2.png": "/portfolio/static/media/bakery2.aa96a60c18f160dca933.png",
+    "static/media/bakery1.png": "/portfolio/static/media/bakery1.aa434e3220c2f5140c28.png",
+    "static/media/bakery3.png": "/portfolio/static/media/bakery3.5ee18b38ddb501f47acf.png",
     "static/media/person.png": "/portfolio/static/media/person.918a6a0f32032307b6ed.png",
-    "static/media/notes-screen.png": "/portfolio/static/media/notes-screen.166febfd9314fff3095c.png",
-    "static/media/react.svg": "/portfolio/static/media/react.4b7cfa9a9e3617aa1b13567e6958080a.svg",
-    "static/media/styled.svg": "/portfolio/static/media/styled.6e34e546e24de94bd5d818b2b75cafd1.svg",
-    "static/media/firebase.svg": "/portfolio/static/media/firebase.e6583a29712875c8977afcba1d0b6883.svg",
-    "static/media/c.svg": "/portfolio/static/media/c.21a8fab81e76bf019238a55c1c88198c.svg",
+    "static/media/notes4.png": "/portfolio/static/media/notes4.786717dd5ecbdbb34d6c.png",
+    "static/media/notes1.png": "/portfolio/static/media/notes1.166febfd9314fff3095c.png",
+    "static/media/notes5.png": "/portfolio/static/media/notes5.d66d93b49e6b183ad544.png",
+    "static/media/quiz4.png": "/portfolio/static/media/quiz4.a386e6bbeb4f9dc8d3d2.png",
+    "static/media/quiz2.png": "/portfolio/static/media/quiz2.b183adaadc3d1eafac02.png",
+    "static/media/quiz3.png": "/portfolio/static/media/quiz3.d7bde783de828ab76cb4.png",
+    "static/media/notes3.png": "/portfolio/static/media/notes3.2e419f64f98525072413.png",
+    "static/media/notes2.png": "/portfolio/static/media/notes2.1dbaf5e397a4f103a199.png",
+    "static/media/quiz1.png": "/portfolio/static/media/quiz1.e19d181ac1ea9ef0d92c.png",
+    "static/media/todo1.png": "/portfolio/static/media/todo1.5b559b67cc42150bc350.png",
+    "static/media/quiz5.png": "/portfolio/static/media/quiz5.a57102394cea0859d8fa.png",
+    "static/media/todo2.png": "/portfolio/static/media/todo2.a374dcedf8615ceeb01d.png",
+    "static/media/todo3.png": "/portfolio/static/media/todo3.88fe389b3bcbb0222688.png",
+    "static/media/js.svg": "/portfolio/static/media/js.f3f79051061680759637.svg",
+    "static/media/styled.svg": "/portfolio/static/media/styled.6e34e546e24de94bd5d8.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.e68b35f4774979ae220b.svg",
+    "static/media/firebase.svg": "/portfolio/static/media/firebase.e6583a29712875c8977a.svg",
+    "static/media/redux.svg": "/portfolio/static/media/redux.0e4fb1c819ac4c060c92.svg",
+    "static/media/c.svg": "/portfolio/static/media/c.21a8fab81e76bf019238.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.00f3e5cf8bcf4ae623b3.svg",
     "static/media/rocket.svg": "/portfolio/static/media/rocket.60e68d767df99ec0bfa10d3c33b77b49.svg",
     "static/media/theme.svg": "/portfolio/static/media/theme.3e289b677a9d9d0083516d6a79954a0c.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/git.svg": "/portfolio/static/media/git.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.c60b7e5ae8ec2562f23f.svg",
     "static/media/github.svg": "/portfolio/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
-    "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
-    "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc8.svg",
     "static/media/close.svg": "/portfolio/static/media/close.08233535a9321b39bf5f4a13e34fede0.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.113d59e2703636dfe157ec8ec962d598.svg",
-    "main.7e5dcb08.js.map": "/portfolio/static/js/main.7e5dcb08.js.map"
+    "main.b1996d08.js.map": "/portfolio/static/js/main.b1996d08.js.map"
   },
   "entrypoints": [
-    "static/js/main.7e5dcb08.js"
+    "static/js/main.b1996d08.js"
   ]
 }
